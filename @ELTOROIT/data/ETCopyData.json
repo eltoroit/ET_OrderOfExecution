@@ -1,0 +1,72 @@
+{
+    "now": "2020-04-26T16:27:15.470Z",
+    "orgSource": "soET_OOE",
+    "orgDestination": "soET_OOE",
+    "sObjectsData": [
+        {
+            "name": "Opportunity",
+            "ignoreFields": "OwnerId",
+            "maxRecords": -1,
+            "orderBy": null,
+            "twoPassReferenceFields": "",
+            "where": null
+        },
+        {
+            "name": "Case",
+            "ignoreFields": "OwnerId",
+            "maxRecords": -1,
+            "orderBy": null,
+            "twoPassReferenceFields": "",
+            "where": null
+        },
+        {
+            "name": "Lead",
+            "ignoreFields": "OwnerId",
+            "maxRecords": -1,
+            "orderBy": null,
+            "twoPassReferenceFields": "",
+            "where": null
+        },
+        {
+            "name": "Contact",
+            "ignoreFields": "OwnerId",
+            "maxRecords": -1,
+            "orderBy": null,
+            "twoPassReferenceFields": "",
+            "where": null
+        },
+        {
+            "name": "Campaign",
+            "ignoreFields": "OwnerId",
+            "maxRecords": -1,
+            "orderBy": null,
+            "twoPassReferenceFields": "",
+            "where": null
+        },
+        {
+            "name": "Account",
+            "ignoreFields": "OwnerId",
+            "maxRecords": -1,
+            "orderBy": null,
+            "twoPassReferenceFields": "",
+            "where": null
+        },
+        {
+            "name": "TriggerOLD__c",
+            "ignoreFields": "OwnerId",
+            "maxRecords": -1,
+            "orderBy": null,
+            "twoPassReferenceFields": "",
+            "where": null
+        }
+    ],
+    "sObjectsMetadata": [],
+    "rootFolder": "ETCopyData",
+    "includeAllCustom": true,
+    "stopOnErrors": true,
+    "ignoreFields": null,
+    "twoPassReferenceFields": null,
+    "maxRecordsEach": -1,
+    "deleteDestination": false,
+    "pollingTimeout": 100000
+}

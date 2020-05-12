@@ -1,0 +1,82 @@
+{
+	"fetched": 4,
+	"records": [
+		{
+			"attributes": {
+				"type": "Campaign",
+				"url": "/services/data/v48.0/sobjects/Campaign/70155000000xfBrAAI"
+			},
+			"ActualCost": 11400,
+			"BudgetedCost": 10000,
+			"Description": null,
+			"EndDate": "2019-09-22",
+			"ExpectedResponse": 10,
+			"ExpectedRevenue": 3000000,
+			"Id": "70155000000xfBrAAI",
+			"IsActive": true,
+			"Name": "GC Product Webinar - Jan 7, 2002",
+			"NumberSent": 5000,
+			"StartDate": "2019-09-22",
+			"Status": "Completed",
+			"Type": "Webinar"
+		},
+		{
+			"attributes": {
+				"type": "Campaign",
+				"url": "/services/data/v48.0/sobjects/Campaign/70155000000xfBsAAI"
+			},
+			"ActualCost": null,
+			"BudgetedCost": 100000,
+			"Description": null,
+			"EndDate": "2020-03-03",
+			"ExpectedResponse": 15,
+			"ExpectedRevenue": 5500000,
+			"Id": "70155000000xfBsAAI",
+			"IsActive": true,
+			"Name": "User Conference - Jun 17-19, 2002",
+			"NumberSent": 40000,
+			"StartDate": "2020-03-01",
+			"Status": "Planned",
+			"Type": "Conference"
+		},
+		{
+			"attributes": {
+				"type": "Campaign",
+				"url": "/services/data/v48.0/sobjects/Campaign/70155000000xfBtAAI"
+			},
+			"ActualCost": 23500,
+			"BudgetedCost": 25000,
+			"Description": null,
+			"EndDate": "2019-08-08",
+			"ExpectedResponse": 7,
+			"ExpectedRevenue": 2500000,
+			"Id": "70155000000xfBtAAI",
+			"IsActive": true,
+			"Name": "DM Campaign to Top Customers - Nov 12-23, 2001",
+			"NumberSent": 15000,
+			"StartDate": "2019-07-28",
+			"Status": "Completed",
+			"Type": "Direct Mail"
+		},
+		{
+			"attributes": {
+				"type": "Campaign",
+				"url": "/services/data/v48.0/sobjects/Campaign/70155000000xfBuAAI"
+			},
+			"ActualCost": null,
+			"BudgetedCost": 50000,
+			"Description": null,
+			"EndDate": "2019-11-18",
+			"ExpectedResponse": 0,
+			"ExpectedRevenue": 8500000,
+			"Id": "70155000000xfBuAAI",
+			"IsActive": true,
+			"Name": "International Electrical Engineers Association Trade Show - Mar 4-5, 2002",
+			"NumberSent": 0,
+			"StartDate": "2019-11-17",
+			"Status": "Planned",
+			"Type": "Trade Show"
+		}
+	],
+	"total": 4
+}

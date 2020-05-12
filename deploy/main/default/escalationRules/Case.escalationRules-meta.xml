@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EscalationRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <escalationRule>
+        <fullName>OOE%3A Escalation Rule</fullName>
+        <active>true</active>
+        <ruleEntry>
+            <businessHoursSource>Case</businessHoursSource>
+            <escalationAction>
+                <assignedTo>test-9u4xyxqcocn4@example.com</assignedTo>
+                <assignedToType>User</assignedToType>
+                <minutesToEscalation>60</minutesToEscalation>
+                <notifyCaseOwner>true</notifyCaseOwner>
+                <notifyToTemplate>unfiled$public/OEE_Email_Template</notifyToTemplate>
+            </escalationAction>
+            <escalationStartTime>CaseLastModified</escalationStartTime>
+            <formula>true</formula>
+        </ruleEntry>
+    </escalationRule>
+</EscalationRules>

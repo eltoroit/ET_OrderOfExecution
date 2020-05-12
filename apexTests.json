@@ -1,0 +1,88 @@
+{
+  "status": 0,
+  "result": {
+    "summary": {
+      "outcome": "Passed",
+      "testsRan": 2,
+      "passing": 2,
+      "failing": 0,
+      "skipped": 0,
+      "passRate": "100%",
+      "failRate": "0%",
+      "testStartTime": "Apr 26, 2020 12:28 PM",
+      "testExecutionTime": "21 ms",
+      "testTotalTime": "21 ms",
+      "commandTime": "3860 ms",
+      "hostname": "https://drive-flow-7587-dev-ed.cs97.my.salesforce.com/",
+      "orgId": "00D0U000000FCraUAG",
+      "username": "test-txeqsenuv8wl@example.com",
+      "testRunId": "7070U00001H2wp8",
+      "userId": "0050U000003HB8UQAW",
+      "testRunCoverage": "NaN%",
+      "orgWideCoverage": "0%"
+    },
+    "tests": [
+      {
+        "attributes": {
+          "type": "ApexTestResult",
+          "url": "/services/data/v48.0/tooling/sobjects/ApexTestResult/07M0U000005z7EbUAI"
+        },
+        "Id": "07M0U000005z7EbUAI",
+        "QueueItemId": "7090U000000jHGvQAM",
+        "StackTrace": null,
+        "Message": null,
+        "AsyncApexJobId": "7070U00001H2wp8QAB",
+        "MethodName": "Test01",
+        "Outcome": "Pass",
+        "ApexClass": {
+          "attributes": {
+            "type": "ApexClass",
+            "url": "/services/data/v48.0/tooling/sobjects/ApexClass/01p0U000003ppCmQAI"
+          },
+          "Id": "01p0U000003ppCmQAI",
+          "Name": "TestClass",
+          "NamespacePrefix": null
+        },
+        "RunTime": 15,
+        "FullName": "TestClass.Test01"
+      },
+      {
+        "attributes": {
+          "type": "ApexTestResult",
+          "url": "/services/data/v48.0/tooling/sobjects/ApexTestResult/07M0U000005z7EcUAI"
+        },
+        "Id": "07M0U000005z7EcUAI",
+        "QueueItemId": "7090U000000jHGvQAM",
+        "StackTrace": null,
+        "Message": null,
+        "AsyncApexJobId": "7070U00001H2wp8QAB",
+        "MethodName": "Test02",
+        "Outcome": "Pass",
+        "ApexClass": {
+          "attributes": {
+            "type": "ApexClass",
+            "url": "/services/data/v48.0/tooling/sobjects/ApexClass/01p0U000003ppCmQAI"
+          },
+          "Id": "01p0U000003ppCmQAI",
+          "Name": "TestClass",
+          "NamespacePrefix": null
+        },
+        "RunTime": 6,
+        "FullName": "TestClass.Test02"
+      }
+    ],
+    "coverage": {
+      "coverage": [],
+      "records": [],
+      "summary": {
+        "totalLines": 0,
+        "coveredLines": 0,
+        "testRunCoverage": "NaN%",
+        "orgWideCoverage": "0%"
+      }
+    }
+  },
+  "warnings": [
+    "In Summer '20, the apex test reporter will return more relevant and accurate code coverage results for test runs. To preview this change, set the environment variable SFDX_IMPROVED_CODE_COVERAGE='true'. Learn more at https://releasenotes.docs.salesforce.com/en-us/spring20/release-notes/rn_sf_cli_code_coverage_apextests.htm"
+  ]
+}

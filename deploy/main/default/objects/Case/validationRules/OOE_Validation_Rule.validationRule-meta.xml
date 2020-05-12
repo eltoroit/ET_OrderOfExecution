@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OOE_Validation_Rule</fullName>
+    <active>true</active>
+    <errorConditionFormula>BLANKVALUE(Counter__c, 0) &lt; 1</errorConditionFormula>
+    <errorDisplayField>Counter__c</errorDisplayField>
+    <errorMessage>Counter must be greater than 1</errorMessage>
+</ValidationRule>

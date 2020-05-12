@@ -1,0 +1,61 @@
+{
+	"fetched": 5,
+	"records": [
+		{
+			"attributes": {
+				"type": "MDGrandParent__c",
+				"url": "/services/data/v48.0/sobjects/MDGrandParent__c/a0255000006qwfqAAA"
+			},
+			"Counter__c": 1,
+			"Dummy__c": null,
+			"HTML__c": null,
+			"Id": "a0255000006qwfqAAA",
+			"Name": "GP01"
+		},
+		{
+			"attributes": {
+				"type": "MDGrandParent__c",
+				"url": "/services/data/v48.0/sobjects/MDGrandParent__c/a0255000006qwfrAAA"
+			},
+			"Counter__c": 2,
+			"Dummy__c": null,
+			"HTML__c": null,
+			"Id": "a0255000006qwfrAAA",
+			"Name": "GP02"
+		},
+		{
+			"attributes": {
+				"type": "MDGrandParent__c",
+				"url": "/services/data/v48.0/sobjects/MDGrandParent__c/a0255000006qwfsAAA"
+			},
+			"Counter__c": 3,
+			"Dummy__c": null,
+			"HTML__c": null,
+			"Id": "a0255000006qwfsAAA",
+			"Name": "GP03"
+		},
+		{
+			"attributes": {
+				"type": "MDGrandParent__c",
+				"url": "/services/data/v48.0/sobjects/MDGrandParent__c/a0255000006qwftAAA"
+			},
+			"Counter__c": 4,
+			"Dummy__c": null,
+			"HTML__c": null,
+			"Id": "a0255000006qwftAAA",
+			"Name": "GP04"
+		},
+		{
+			"attributes": {
+				"type": "MDGrandParent__c",
+				"url": "/services/data/v48.0/sobjects/MDGrandParent__c/a0255000006qwfuAAA"
+			},
+			"Counter__c": 5,
+			"Dummy__c": null,
+			"HTML__c": null,
+			"Id": "a0255000006qwfuAAA",
+			"Name": "GP05"
+		}
+	],
+	"total": 5
+}

@@ -1,0 +1,6 @@
+.sfdx
+.vscode
+.DS_Store
+jsconfig.json
+node_modules
+@ELTOROIT/docs/~$Slides.pptx
