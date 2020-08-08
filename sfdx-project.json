@@ -1,12 +1,12 @@
 {
 	"packageDirectories": [
 		{
-			"path": "deploy",
-			"default": true
-		},
-		{
 			"path": "doNotDeploy",
 			"default": false
+		},
+		{
+			"path": "deploy",
+			"default": true
 		}
 	],
 	"namespace": "",

@@ -367,9 +367,9 @@ else
 	mainLoadData
 	mainExecuteApexAfterData
 	mainRunApexTests
-	mainPushAgain
-	mainReassignAlias
-	mainGeneratePassword
+	# mainPushAgain
+	# mainReassignAlias
+	# mainGeneratePassword
 	QuitSuccess
 fi
 
