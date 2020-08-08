@@ -16,7 +16,7 @@
             <assignToReference>$Record.Dummy__c</assignToReference>
             <operator>Add</operator>
             <value>
-                <stringValue>&quot; | After-Save Flow: &quot; &amp; text({!$Record.Counter__c}) &amp; &quot; &gt; &quot; &amp; text({!$Record.Counter__c} + 1) &amp; &quot; &quot; </stringValue>
+                <elementReference>CalculateMessage</elementReference>
             </value>
         </assignmentItems>
         <connector>
@@ -52,6 +52,11 @@
             <label>Update</label>
         </rules>
     </decisions>
+    <formulas>
+        <name>CalculateMessage</name>
+        <dataType>String</dataType>
+        <expression>&quot; | After-Save Flow: &quot; &amp; text({!$Record.Counter__c}) &amp; &quot; &gt; &quot; &amp; text({!$Record.Counter__c} + 1) &amp; &quot; &quot;</expression>
+    </formulas>
     <interviewLabel>OOE: After-Save Flow: OOE {!$Flow.CurrentDateTime}</interviewLabel>
     <label>OOE: After-Save Flow: OOE</label>
     <processMetadataValues>
@@ -84,5 +89,5 @@
         <recordTriggerType>CreateAndUpdate</recordTriggerType>
         <triggerType>RecordAfterSave</triggerType>
     </start>
-    <status>Draft</status>
+    <status>Active</status>
 </Flow>
