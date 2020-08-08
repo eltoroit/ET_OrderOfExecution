@@ -1,3 +1,5 @@
+![ELTOROIT ET OrderOfExecution](https://github.com/eltoroit/ET_OrderOfExecution/workflows/ELTOROIT%20Test%20Scratch%20Org/badge.svg)
+
 # Save Order Of Execution
 
 <p align="center">

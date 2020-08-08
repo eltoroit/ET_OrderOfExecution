@@ -1,25 +1,47 @@
 {
-	"name": "basicproject",
+	"name": "et-order-of-execution",
 	"version": "1.0.0",
-	"description": "Sample SFDX ",
-	"main": "index.js",
+	"description": "Order Of Execution Demo",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/eltoroit/ETScratchOrgsStarter.git"
+		"url": "git+https://github.com/eltoroit/ET_OrderOfExecution.git"
 	},
 	"keywords": [
 		"SFDX",
 		"Scratch",
-		"Starter"
+		"Order Of Execution",
+		"Salesforce",
+		"OOE"
 	],
 	"author": "Andres Perez",
 	"license": "ISC",
 	"bugs": {
-		"url": "https://github.com/eltoroit/ETScratchOrgsStarter/issues"
+		"url": "https://github.com/eltoroit/ET_OrderOfExecution.git/issues"
 	},
-	"homepage": "https://github.com/eltoroit/ETScratchOrgsStarter#readme",
+	"homepage": "https://www.linkedin.com/pulse/order-execution-apex-transactions-governor-limits-eltoroit-/",
 	"devDependencies": {
-		"prettier": "1.19.1",
-		"prettier-plugin-apex": "1.2.0"
+		"eslint": "7.6.0",
+		"prettier": "2.0.5",
+		"prettier-plugin-apex": "1.6.0",
+		"@prettier/plugin-xml": "0.10.0",
+		"@salesforce/sfdx-lwc-jest": "0.9.2",
+		"@salesforce/eslint-config-lwc": "0.7.0"
+	},
+	"jest": {
+		"testPathIgnorePatterns": [
+			"<rootDir>/node_modules/"
+		]
+	},
+	"scripts": {
+		"lint": "npm run lint:lwc",
+		"lint:lwc": "eslint force-app/main/default/lwc",
+		"test": "npm run test:unit",
+		"test:unit": "sfdx-lwc-jest",
+		"test:unit:watch": "sfdx-lwc-jest --watch",
+		"test:unit:debug": "sfdx-lwc-jest --debug",
+		"test:unit:CICD": "sfdx-lwc-jest --coverage",
+		"test:unit:coverage": "sfdx-lwc-jest --coverage",
+		"prettier": "prettier --write \"**/*.{cls,cmp,component,css,html,js,json,md,page,trigger,xml,yaml,yml}\"",
+		"prettier:verify": "prettier --list-different \"**/*.{cls,cmp,component,css,html,js,json,md,page,trigger,xml,yaml,yml}\""
 	}
 }
