@@ -3,6 +3,10 @@
 		{
 			"path": "deploy",
 			"default": true
+		},
+		{
+			"path": "doNotDeploy",
+			"default": false
 		}
 	],
 	"namespace": "",
