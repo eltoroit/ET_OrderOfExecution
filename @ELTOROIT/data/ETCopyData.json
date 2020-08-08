@@ -1,5 +1,5 @@
 {
-    "now": "2020-04-26T16:27:15.470Z",
+    "now": "2020-08-08T22:12:03.611Z",
     "orgSource": "soET_OOE",
     "orgDestination": "soET_OOE",
     "sObjectsData": [
@@ -65,6 +65,7 @@
     "includeAllCustom": true,
     "stopOnErrors": true,
     "ignoreFields": null,
+    "copyToProduction": false,
     "twoPassReferenceFields": null,
     "maxRecordsEach": -1,
     "deleteDestination": false,

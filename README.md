@@ -1,3 +1,5 @@
+![ELTOROIT ET OrderOfExecution](https://github.com/eltoroit/ET_OrderOfExecution/workflows/ELTOROIT%20Test%20Scratch%20Org/badge.svg)
+
 # Save Order Of Execution
 
 <p align="center">
@@ -17,3 +19,5 @@ I recommend you watch this session and play around with the project I built, and
 | Video  | https://sfdc.co/etOOE                                                                           |
 | Repo   | https://github.com/eltoroit/ET_OrderOfExecution                                                 |
 | Slides | https://github.com/eltoroit/ET_OrderOfExecution/blob/master/@ELTOROIT/docs/Slides.ppsx?raw=true |
+
+If you want to reproduce the examples, you could use this command in Mac: `./@ELTOROIT/scripts/shell/CreateOrg.sh`

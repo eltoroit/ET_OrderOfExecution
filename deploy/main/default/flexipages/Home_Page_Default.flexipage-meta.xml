@@ -9,17 +9,11 @@
         <type>Region</type>
     </flexiPageRegions>
     <flexiPageRegions>
-        <componentInstances>
-            <componentInstanceProperties>
-                <name>decorate</name>
-                <value>true</value>
-            </componentInstanceProperties>
-            <componentInstanceProperties>
-                <name>richTextValue</name>
-                <value>&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 36px;&quot;&gt;Order Of Execution&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;https://enterprise-momentum-6565-dev-ed--c.documentforce.com/servlet/rtaImage?refid=0EM210000001DQY&quot; alt=&quot;image.png&quot;&gt;&lt;/p&gt;</value>
-            </componentInstanceProperties>
-            <componentName>flexipage:richText</componentName>
-        </componentInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>homePage</componentName>
+            </componentInstance>
+        </itemInstances>
         <name>middle</name>
         <type>Region</type>
     </flexiPageRegions>
