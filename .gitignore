@@ -40,3 +40,4 @@ $RECYCLE.BIN/
 
 # My Files
 etLogs/*.json
+deploy/main/default/appMenus/AppSwitcher.appMenu-meta.xml
