@@ -1,10 +1,10 @@
 {
-    "now": "2020-08-08T22:12:03.611Z",
     "orgSource": "soET_OOE",
     "orgDestination": "soET_OOE",
     "sObjectsData": [
         {
             "name": "Opportunity",
+            "externalIdField": null,
             "ignoreFields": "OwnerId",
             "maxRecords": -1,
             "orderBy": null,
@@ -13,6 +13,7 @@
         },
         {
             "name": "Case",
+            "externalIdField": null,
             "ignoreFields": "OwnerId",
             "maxRecords": -1,
             "orderBy": null,
@@ -21,6 +22,7 @@
         },
         {
             "name": "Lead",
+            "externalIdField": null,
             "ignoreFields": "OwnerId",
             "maxRecords": -1,
             "orderBy": null,
@@ -29,6 +31,7 @@
         },
         {
             "name": "Contact",
+            "externalIdField": null,
             "ignoreFields": "OwnerId",
             "maxRecords": -1,
             "orderBy": null,
@@ -37,6 +40,7 @@
         },
         {
             "name": "Campaign",
+            "externalIdField": null,
             "ignoreFields": "OwnerId",
             "maxRecords": -1,
             "orderBy": null,
@@ -45,6 +49,7 @@
         },
         {
             "name": "Account",
+            "externalIdField": null,
             "ignoreFields": "OwnerId",
             "maxRecords": -1,
             "orderBy": null,
@@ -53,6 +58,7 @@
         },
         {
             "name": "TriggerOLD__c",
+            "externalIdField": null,
             "ignoreFields": "OwnerId",
             "maxRecords": -1,
             "orderBy": null,
@@ -63,11 +69,13 @@
     "sObjectsMetadata": [],
     "rootFolder": "ETCopyData",
     "includeAllCustom": true,
+    "customObjectsToIgnore": null,
     "stopOnErrors": true,
     "ignoreFields": null,
     "copyToProduction": false,
     "twoPassReferenceFields": null,
     "maxRecordsEach": -1,
     "deleteDestination": false,
+    "useBulkAPI": false,
     "pollingTimeout": 100000
 }
