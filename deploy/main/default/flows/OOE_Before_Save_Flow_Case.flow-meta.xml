@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>49.0</apiVersion>
     <assignments>
         <name>InitializeCounter</name>
         <label>Initialize Counter</label>
-        <locationX>223</locationX>
-        <locationY>50</locationY>
+        <locationX>176</locationX>
+        <locationY>311</locationY>
         <assignmentItems>
             <assignToReference>$Record.Counter__c</assignToReference>
             <operator>Assign</operator>
@@ -16,7 +17,7 @@
             <assignToReference>$Record.HTML__c</assignToReference>
             <operator>Assign</operator>
             <value>
-                <stringValue>&#39;OOE | Before-Save Flow&#39;</stringValue>
+                <stringValue>&apos;OOE | Before-Save Flow&apos;</stringValue>
             </value>
         </assignmentItems>
     </assignments>
@@ -36,6 +37,12 @@
         </value>
     </processMetadataValues>
     <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
         <name>OriginBuilderType</name>
         <value>
             <stringValue>LightningFlowBuilder</stringValue>
@@ -44,7 +51,7 @@
     <processType>AutoLaunchedFlow</processType>
     <start>
         <locationX>50</locationX>
-        <locationY>50</locationY>
+        <locationY>0</locationY>
         <connector>
             <targetReference>InitializeCounter</targetReference>
         </connector>
