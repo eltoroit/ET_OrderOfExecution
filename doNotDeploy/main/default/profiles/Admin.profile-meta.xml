@@ -13,7 +13,7 @@
         <visible>false</visible>
     </applicationVisibilities>
     <applicationVisibilities>
-        <application>standard__Commerce</application>
+        <application>standard__SalesforceCMS</application>
         <default>false</default>
         <visible>false</visible>
     </applicationVisibilities>
@@ -47,5 +47,5 @@
         <default>false</default>
         <visible>false</visible>
     </applicationVisibilities>
-    
+
 </Profile>
