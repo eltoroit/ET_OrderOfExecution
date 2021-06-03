@@ -1,4 +1,4 @@
-trigger tTriggerOLD on TriggerOLD__c(before insert, after insert, before update, after update) {
+trigger tTriggerOLD on TriggerOLD__c(before update, after update) {
 	for (TriggerOLD__c newRecord : Trigger.new) {
 		String new1 = newRecord.Dummy__c;
 		String old1 = Trigger.oldMap.get(newRecord.Id).Dummy__c;
