@@ -33,21 +33,10 @@
         <processMetadataValues>
             <name>originalFormula</name>
             <value>
-                <stringValue>&apos;Process&apos;</stringValue>
-            </value>
-        </processMetadataValues>
-        <name>formula_2_myRule_1_A2_4145932134</name>
-        <dataType>String</dataType>
-        <expression>&apos;Process&apos;</expression>
-    </formulas>
-    <formulas>
-        <processMetadataValues>
-            <name>originalFormula</name>
-            <value>
                 <stringValue>[TriggerOLD__c].Counter__c + 1</stringValue>
             </value>
         </processMetadataValues>
-        <name>formula_3_myRule_1_A1_6312826516</name>
+        <name>formula_2_myRule_1_A1_6012950935</name>
         <dataType>Number</dataType>
         <expression>{!myVariable_current.Counter__c} + 1</expression>
         <scale>18</scale>
@@ -57,7 +46,7 @@
         <dataType>Boolean</dataType>
         <expression>true</expression>
     </formulas>
-    <interviewLabel>TrigerOld-7_InterviewLabel</interviewLabel>
+    <interviewLabel>TrigerOld-2_InterviewLabel</interviewLabel>
     <label>TrigerOld</label>
     <processMetadataValues>
         <name>ObjectType</name>
@@ -110,12 +99,9 @@
             <name>referenceTargetField</name>
         </processMetadataValues>
         <name>myRule_1_A1</name>
-        <label>Plus 1</label>
+        <label>Update values</label>
         <locationX>100</locationX>
         <locationY>200</locationY>
-        <connector>
-            <targetReference>myRule_1_A2</targetReference>
-        </connector>
         <filterLogic>and</filterLogic>
         <filters>
             <processMetadataValues>
@@ -163,54 +149,9 @@
             </processMetadataValues>
             <field>Counter__c</field>
             <value>
-                <elementReference>formula_3_myRule_1_A1_6312826516</elementReference>
+                <elementReference>formula_2_myRule_1_A1_6012950935</elementReference>
             </value>
         </inputAssignments>
-        <object>TriggerOLD__c</object>
-    </recordUpdates>
-    <recordUpdates>
-        <processMetadataValues>
-            <name>evaluationType</name>
-            <value>
-                <stringValue>always</stringValue>
-            </value>
-        </processMetadataValues>
-        <processMetadataValues>
-            <name>extraTypeInfo</name>
-        </processMetadataValues>
-        <processMetadataValues>
-            <name>isChildRelationship</name>
-            <value>
-                <booleanValue>false</booleanValue>
-            </value>
-        </processMetadataValues>
-        <processMetadataValues>
-            <name>reference</name>
-            <value>
-                <stringValue>[TriggerOLD__c]</stringValue>
-            </value>
-        </processMetadataValues>
-        <processMetadataValues>
-            <name>referenceTargetField</name>
-        </processMetadataValues>
-        <name>myRule_1_A2</name>
-        <label>Set Who</label>
-        <locationX>100</locationX>
-        <locationY>300</locationY>
-        <filterLogic>and</filterLogic>
-        <filters>
-            <processMetadataValues>
-                <name>implicit</name>
-                <value>
-                    <booleanValue>true</booleanValue>
-                </value>
-            </processMetadataValues>
-            <field>Id</field>
-            <operator>EqualTo</operator>
-            <value>
-                <elementReference>myVariable_current.Id</elementReference>
-            </value>
-        </filters>
         <inputAssignments>
             <processMetadataValues>
                 <name>dataType</name>
@@ -239,12 +180,12 @@
             <processMetadataValues>
                 <name>rightHandSideType</name>
                 <value>
-                    <stringValue>Formula</stringValue>
+                    <stringValue>String</stringValue>
                 </value>
             </processMetadataValues>
             <field>Who__c</field>
             <value>
-                <elementReference>formula_2_myRule_1_A2_4145932134</elementReference>
+                <stringValue>&apos;Process&apos;</stringValue>
             </value>
         </inputAssignments>
         <object>TriggerOLD__c</object>
