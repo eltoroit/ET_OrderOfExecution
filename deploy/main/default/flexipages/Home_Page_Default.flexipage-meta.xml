@@ -11,6 +11,7 @@
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
+                <identifier>xxxxId</identifier>
                 <componentName>homePage</componentName>
             </componentInstance>
         </itemInstances>

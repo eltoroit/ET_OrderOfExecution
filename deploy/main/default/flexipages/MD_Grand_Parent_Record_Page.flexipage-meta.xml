@@ -3,20 +3,21 @@
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
-            <componentInstanceProperties>
-                <name>collapsed</name>
-                <value>false</value>
-            </componentInstanceProperties>
-            <componentInstanceProperties>
-                <name>hideChatterActions</name>
-                <value>false</value>
-            </componentInstanceProperties>
-            <componentInstanceProperties>
-                <name>numVisibleActions</name>
-                <value>3</value>
-            </componentInstanceProperties>
-            <componentName>force:highlightsPanel</componentName>
-        </componentInstance>
+                <identifier>xxxxId1</identifier>
+                <componentInstanceProperties>
+                    <name>collapsed</name>
+                    <value>false</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>hideChatterActions</name>
+                    <value>false</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>numVisibleActions</name>
+                    <value>3</value>
+                </componentInstanceProperties>
+                <componentName>force:highlightsPanel</componentName>
+            </componentInstance>
         </itemInstances>
         <mode>Replace</mode>
         <name>header</name>
@@ -25,8 +26,9 @@
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
-            <componentName>force:detailPanel</componentName>
-        </componentInstance>
+                <identifier>xxxxId2</identifier>
+                <componentName>force:detailPanel</componentName>
+            </componentInstance>
         </itemInstances>
         <mode>Replace</mode>
         <name>main</name>
@@ -35,20 +37,21 @@
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
-            <componentInstanceProperties>
-                <name>relatedListComponentOverride</name>
-                <value>NONE</value>
-            </componentInstanceProperties>
-            <componentInstanceProperties>
-                <name>rowsToDisplay</name>
-                <value>10</value>
-            </componentInstanceProperties>
-            <componentInstanceProperties>
-                <name>showActionBar</name>
-                <value>true</value>
-            </componentInstanceProperties>
-            <componentName>force:relatedListContainer</componentName>
-        </componentInstance>
+                <identifier>xxxxId3</identifier>
+                <componentInstanceProperties>
+                    <name>relatedListComponentOverride</name>
+                    <value>NONE</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>rowsToDisplay</name>
+                    <value>10</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>showActionBar</name>
+                    <value>true</value>
+                </componentInstanceProperties>
+                <componentName>force:relatedListContainer</componentName>
+            </componentInstance>
         </itemInstances>
         <mode>Replace</mode>
         <name>sidebar</name>
