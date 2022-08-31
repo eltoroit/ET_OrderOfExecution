@@ -54,7 +54,7 @@
 # --- Batch boolean variables
 
 	# Do you want to use ETCopyData to import data?
-	IMPORT_DATA=true
+	IMPORT_DATA=false
 
 	# Quit on errors?
 	QUIT_ON_ERRORS=true

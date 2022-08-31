@@ -1,7 +1,7 @@
 {
 	"orgName": "ELTOROIT Demos Computing",
 	"edition": "Developer",
-	"hasSampleData": false,
+	"hasSampleData": true,
 	"settings": {
 		"mobileSettings": {
 			"enableS1EncryptedStoragePref2": false
