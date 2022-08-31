@@ -28,6 +28,7 @@
             <numberValue>1.0</numberValue>
         </value>
     </constants>
+    <environments>Default</environments>
     <interviewLabel>OOE: Before-Save Flow: Case {!$Flow.CurrentDateTime}</interviewLabel>
     <label>OOE: Before-Save Flow: Case</label>
     <processMetadataValues>
@@ -55,6 +56,7 @@
         <connector>
             <targetReference>InitializeCounter</targetReference>
         </connector>
+        <filterFormula>true</filterFormula>
         <object>Case</object>
         <recordTriggerType>CreateAndUpdate</recordTriggerType>
         <triggerType>RecordBeforeSave</triggerType>
