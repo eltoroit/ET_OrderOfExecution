@@ -3,6 +3,7 @@
 # For useful gitignore templates see: https://github.com/github/gitignore
 
 # Salesforce cache
+.sf/
 .sfdx/
 .localdevserver/
 
@@ -41,3 +42,5 @@ $RECYCLE.BIN/
 # My Files
 etLogs/*.json
 deploy/main/default/appMenus/AppSwitcher.appMenu-meta.xml
+@ELTOROIT/docs/~*
+org.json

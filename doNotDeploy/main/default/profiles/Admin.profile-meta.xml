@@ -47,5 +47,9 @@
         <default>false</default>
         <visible>false</visible>
     </applicationVisibilities>
-
+    <applicationVisibilities>
+        <application>OrderOfExecution</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
 </Profile>

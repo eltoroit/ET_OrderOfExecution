@@ -3,6 +3,7 @@
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
+                <identifier>xxxxId1</identifier>
                 <componentInstanceProperties>
                     <name>collapsed</name>
                     <value>false</value>
@@ -24,6 +25,7 @@
         </itemInstances>
         <itemInstances>
             <componentInstance>
+                <identifier>xxxxId2</identifier>
                 <componentName>force:detailPanel</componentName>
             </componentInstance>
         </itemInstances>

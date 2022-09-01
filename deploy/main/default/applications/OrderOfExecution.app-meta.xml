@@ -18,17 +18,17 @@
     <formFactors>Large</formFactors>
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
     <label>Order Of Execution</label>
     <navType>Standard</navType>
     <tabs>standard-home</tabs>
-    <tabs>OrderOfExecution__c</tabs>
     <tabs>TriggerOLD__c</tabs>
+    <tabs>standard-Case</tabs>
+    <tabs>OrderOfExecution__c</tabs>
+    <tabs>Flow__c</tabs>
     <tabs>MDGrandParent__c</tabs>
     <tabs>MDParent__c</tabs>
     <tabs>MDChild__c</tabs>
-    <tabs>standard-Account</tabs>
-    <tabs>standard-Case</tabs>
-    <tabs>standard-Contact</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Apex_Tests_UtilityBar</utilityBar>
 </CustomApplication>
