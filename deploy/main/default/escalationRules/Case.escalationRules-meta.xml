@@ -6,7 +6,7 @@
         <ruleEntry>
             <businessHoursSource>Case</businessHoursSource>
             <escalationAction>
-                <assignedTo>test-0sx103pt3vbf@example.com</assignedTo>
+                <assignedTo>test-cj6btezbyttd@example.com</assignedTo>
                 <assignedToType>User</assignedToType>
                 <minutesToEscalation>60</minutesToEscalation>
                 <notifyCaseOwner>true</notifyCaseOwner>
